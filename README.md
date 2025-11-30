@@ -79,6 +79,7 @@ Dữ liệu từ Kaggle: [Credit Card Customers](https://www.kaggle.com/datasets
 
 ### Thuật toán sử dụng
 - Logistic Regression:
+
 $$  
 z = X \cdot theta
 $$
