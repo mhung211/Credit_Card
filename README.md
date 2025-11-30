@@ -119,3 +119,41 @@ venv\Scripts\activate     # Windows
 
 # Cài đặt dependencies
 pip install -r requirements.txt
+
+```
+---
+## Usage
+- Chạy các notebook theo thứ tự trong file notebooks.
+notebooks/
+│── 01_data_exploration.ipynb     
+│── 02_preprocessing.ipynb        
+└── 03_modeling.ipynb            
+
+--- 
+## Results
+- Accuracy: 0.86
+- Precision: 0.52
+- Recall: 0.25
+- F1-score: 0.17
+
+![Accuracy Training](images/acc.png)
+![Loss](images/loss.png)
+
+**So sánh và phân tích**
+- Accuracy của tập train và val đều tăng trong quá trình huấn luyện => không có sự overfitting
+- Tuy nhiên, sự chênh lệch dữ liệu quá lớn làm độ chính xác mô hình bị giới hạn
+- Loss còn dao động quá lớn
+--- 
+## Khó khăn khi dùng Numpy và cách giải quyết
+- NumPy không có DataFrame, thao tác với dữ liệu dạng string hoặc phân loại phức tạp hơn -> Sử dụng matrix Numpy và viết các hàm riêng để xử lí dữ liệu
+- Tỉ lệ dữ liệu không cân bằng làm precision và recall thấp -> Điều chỉnh lại thang chuẩn hóa từ phần trăm dự đoán sang label thực tế
+
+---
+## Hướng phát triển
+- Tìm thêm dữ liệu để cân bằng dữ liệu
+- Áp dụng thêm các kĩ thuật tạo các biến phi tuyến
+
+--- 
+## Đóng góp
+- Thông tin tác giả: Trần Mạnh Hùng - MSSV: 22120117
+- Contact: 22120117@student.hcmus.edu.vn
