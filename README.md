@@ -80,7 +80,7 @@ Dữ liệu từ Kaggle: [Credit Card Customers](https://www.kaggle.com/datasets
 ### Thuật toán sử dụng
 - Logistic Regression:
 $$  
-quad z = X.theta
+z = X \cdot theta
 $$
 
 $$
