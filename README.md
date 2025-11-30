@@ -80,7 +80,7 @@ Dữ liệu từ Kaggle: [Credit Card Customers](https://www.kaggle.com/datasets
 ### Thuật toán sử dụng
 - Logistic Regression:
 $$
-\sigmoid(z) = \frac{1}{1 + e^{-z}}, \quad z = X\theta
+sigmoid(z) = frac{1}{1 + e^{-z}}, quad z = X\theta
 $$
 Hàm loss:
 $$
