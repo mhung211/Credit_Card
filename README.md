@@ -81,7 +81,7 @@ Dữ liệu từ Kaggle: [Credit Card Customers](https://www.kaggle.com/datasets
 - Logistic Regression:
 
 $$  
-z = X \cdot theta
+z = X^T \cdot theta
 $$
 
 $$
