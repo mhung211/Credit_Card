@@ -91,7 +91,7 @@ $$
 - Hàm loss:
   
 $$
-L(theta) = -\frac{1}{m_sample}\sum_{i} y_i \log(\hat{y_i}) + (1-y_i) \log(1-\hat{y_i})
+L(theta) = -\frac{1}{m-sample}\sum_{i} y_i \log(\hat{y_i}) + (1-y_i) \log(1-\hat{y_i})
 $$
 
 ### Giải thích cách implement bằng NumPy
